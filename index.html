@@ -20,9 +20,25 @@
 
     <main class="container mt-4">
         <div>
+            <div class="row d-flex justify-content-center mb-4">
+                <div class="col text-center">
+                    <button id="callButton" class="btn btn-primary rounded-circle p-3" aria-label="Receive Call">
+                        <i class="fa-solid fa-phone-volume fa-2x"></i>
+                    </button>
+                </div>
+                <div class="col text-center">
+                    <i id="walkerIcon" class="fa-solid walker-icon fa-person-walking fa-4x"></i>
+                </div>
+                <div class="col text-center">
+                    <button id="toolsButton" class="btn btn-secondary rounded-circle p-3" disabled aria-label="Pack Tools">
+                        <i class="fa-solid fa-screwdriver-wrench fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+
             <div class="table-responsive">
                 <h2 class="text-center text-success-emphasis">Total Service Calls</h2>
-                <table class="table table-bordered mb-4">
+                <table class="table table-bordered mb-4 table-transparent">
                     <thead>
                         <tr>
                             <th class="text-center align-middle fs-4">
@@ -46,7 +62,7 @@
                 </table>
             </div>
 
-            <div class="row text-center text-success-emphasis mb-4">
+             <div class="row text-center text-success-emphasis mb-4">
               <h2 id="toolsTitle" class="col-12">Required Tools: <span id="repairTypeSpan" class="text-danger"></span></h2>
               <div id="toolsContainer" class="col-12 d-flex justify-content-center flex-wrap"></div>
             </div>
