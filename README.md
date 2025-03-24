@@ -22,3 +22,11 @@ This project simulates a simplified interface for a local service technician for
 *   **Responsive Design:** Uses Bootstrap 5 for a responsive layout that adapts to different screen sizes.
 *   **Clear Instructions:** Includes a footer with step-by-step instructions explaining how the interface works.
 *   **No Persistent Storage** All call type counters are reset when the page reloads.
+
+## Technologies Used
+
+*   HTML5
+*   CSS3 (with Bootstrap 5)
+*    [Bootstrap 5.3.3](https://getbootstrap.com/)
+*   JavaScript (Vanilla JS)
+*    [Font Awesome 6.7.2](https://fontawesome.com/)
