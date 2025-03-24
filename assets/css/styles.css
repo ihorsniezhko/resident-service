@@ -1,2 +1,21 @@
-/* Roboto and Serif Google fonts import for better accessibility */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+/* MINIMAL CUSTOM CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap'); /* Roboto and Serif Google fonts import for better accessibility */
+/* Basic body styling */
+body {
+    font-family: 'Roboto Serif', serif; /* Use the Roboto Serif font */
+    background: url("../img/dnipro-skyscrapers-opacity.webp"); /* Set background image */
+    background-repeat: no-repeat;  /* Do not repeat the background image */
+    background-size: cover;  /* Cover the entire viewport with the background */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack header, main, and footer vertically */
+    }
+main {
+    flex: 1; /* Allow the main content area to grow and fill available space */
+    }
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    }
+.table-transparent {
+     --bs-table-bg: transparent; /*Bootstrap 5 way to make table transparent*/
+    }

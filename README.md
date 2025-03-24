@@ -27,6 +27,6 @@ This project simulates a simplified interface for a local service technician for
 
 *   HTML5
 *   CSS3 (with Bootstrap 5)
-*    [Bootstrap 5.3.3](https://getbootstrap.com/)
+*   [Bootstrap 5.3.3](https://getbootstrap.com/)
 *   JavaScript (Vanilla JS)
-*    [Font Awesome 6.7.2](https://fontawesome.com/)
+*   [Font Awesome 6.7.2](https://fontawesome.com/)
