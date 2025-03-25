@@ -80,6 +80,20 @@ function displayTools(repairType) {
                 toolsButton.innerHTML = '<i class="fa-solid fa-screwdriver-wrench fa-2x"></i>'; // Default: screwdriver and wrench icon
             }
         }
+//Function to set the icon on the call button to indicate the repair type.
+    function setCallButtonIcon(repairType) {
+        switch (repairType) {
+            case 'general':
+                callButton.innerHTML = '<i class="fa-solid fa-hammer fa-2x"></i>'; // Set to hammer icon
+                break;
+            case 'electrical':
+                callButton.innerHTML = '<i class="fa-solid fa-plug-circle-bolt fa-2x"></i>'; // Set to electrical bolt icon
+                break;
+            case 'plumbing':
+                callButton.innerHTML = '<i class="fa-solid fa-wrench fa-2x"></i>'; // Set to wrench icon
+                break;
+           }
+        }
 // Event listeners (empty handlers for now for click events)
 callButton.addEventListener('click', handleCall);
 toolsButton.addEventListener('click', handleToolsPacked);
