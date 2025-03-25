@@ -30,3 +30,10 @@ This project simulates a simplified interface for a local service technician for
 *   [Bootstrap 5.3.3](https://getbootstrap.com/)
 *   JavaScript (Vanilla JS)
 *   [Font Awesome 6.7.2](https://fontawesome.com/)
+
+## Credits
+
+*   Site Logo Image, Favicons: [Pngegg](https://www.pngegg.com/en/png-yxixz/)
+*   Body Background Image - Panorama of Dnipro city, Ukraine: [Wikipedia](https://commons.wikimedia.org/wiki/File:Bashty_Gora_Kaminnya_Sobornyj_rajon_Dnipro-city_-_panoramio.jpg#file)
+*   Images of Parkside repair tools: [Lidl's Parkside section](https://www.lidl.de/c/parkside-du-packst-das/s10026759)
+*   JavaScript Math Functions Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
