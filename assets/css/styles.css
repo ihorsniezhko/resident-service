@@ -35,3 +35,9 @@ footer {
 .walker-icon.fa-person-walking-arrow-loop-left {
     color: red;
     }
+/*Style adjustments for tool images */
+.tool-image {
+    max-width: 150px; /* Limit image width to 150px */
+    height: auto;  /* Maintain aspect ratio */
+    margin: 0.5rem; /* Add some space around the images */
+    }

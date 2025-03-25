@@ -47,7 +47,23 @@ const tools = {
         { src: "assets/img/eye-ear-protection-general.webp", alt: "Eye Ear Protection" },
     ],
 };
+// Function to display the tools required for the given repair type
+function displayTools(repairType) {
+    toolsContainer.innerHTML = ''; // Clear any existing tool images
+    toolsContainer.classList.add('border-orange'); // Add an orange border to indicate tools need to be selected
+    repairTypeSpan.textContent = repairType.charAt(0).toUpperCase() + repairType.slice(1) + " Repair"; // Repair type header
 
+    // Get the array of tools for the specified repair type
+    const selectedTools = tools[repairType];
+    // Iterate over the selected tools and create image elements for each
+    selectedTools.forEach(tool => {
+        const img = document.createElement('img'); // Create a new image element
+        img.src = tool.src;   // Set the image source
+        img.alt = tool.alt;   // Set the alt text for accessibility
+        img.classList.add('tool-image'); // Add the tool-image class for styling
+        toolsContainer.appendChild(img); // Add the image to the tools container
+            });
+        }
 // Event listeners (empty handlers for now for click events)
 callButton.addEventListener('click', handleCall);
 toolsButton.addEventListener('click', handleToolsPacked);
