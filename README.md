@@ -64,3 +64,5 @@ The website was deployed to **GitHub Pages** using the following steps:
 *   Images of Parkside repair tools: [Lidl's Parkside section](https://www.lidl.de/c/parkside-du-packst-das/s10026759)
 *   JavaScript Math Functions Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 *   JavaScript Arrow Function Documetation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+*   JavaScript Swith Case Documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+*

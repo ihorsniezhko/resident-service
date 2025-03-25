@@ -64,6 +64,22 @@ function displayTools(repairType) {
         toolsContainer.appendChild(img); // Add the image to the tools container
             });
         }
+// Function to set the icon on the tools button based on the repair type
+    function setToolsButtonIcon(repairType) {
+        switch (repairType) {
+            case 'general':
+                toolsButton.innerHTML = '<i class="fa-solid fa-hammer fa-2x"></i>'; // Set to hammer icon
+                break;
+            case 'electrical':
+                toolsButton.innerHTML = '<i class="fa-solid fa-plug-circle-bolt fa-2x"></i>'; // Set to electrical plug icon
+                break;
+            case 'plumbing':
+                toolsButton.innerHTML = '<i class="fa-solid fa-wrench fa-2x"></i>'; // Set to wrench icon
+                break;
+            default:
+                toolsButton.innerHTML = '<i class="fa-solid fa-screwdriver-wrench fa-2x"></i>'; // Default: screwdriver and wrench icon
+            }
+        }
 // Event listeners (empty handlers for now for click events)
 callButton.addEventListener('click', handleCall);
 toolsButton.addEventListener('click', handleToolsPacked);
