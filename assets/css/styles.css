@@ -19,3 +19,19 @@ footer {
 .table-transparent {
      --bs-table-bg: transparent; /*Bootstrap 5 way to make table transparent*/
     }
+/* Custom class to add a green border */
+.border-green {
+    border: 5px solid green;
+    }
+/* Custom class to add an orange border */
+.border-orange {
+    border: 5px solid orange;
+    }
+/* Style for the walker icon when moving right (green) */
+.walker-icon.fa-person-walking-arrow-right {
+    color: green;
+    }
+/* Style for the walker icon when returning (red) */
+.walker-icon.fa-person-walking-arrow-loop-left {
+    color: red;
+    }
