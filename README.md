@@ -9,7 +9,20 @@ This project simulates a simplified interface for a local service technician for
 
 ![Screenshot of the application](screenshot.png)
 
-## Application Features
+### Design Choices
+*   The website uses a clean and responsive layout to ensure readability on all screen sizes.
+*   Clear and consistent navigation is used to improve user experience.
+*   The website design leverages the default **Bootstrap 5 Light theme** and **Google Roboto Serif font**. This choice creates a clean, bright, and approachable aesthetic.
+
+## Balsamiq Wireframes
+
+Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the Resident Service website's layout used to plan the user interface. Balsamiq was chosen for its ability to quickly create and iterate on visual layouts, allowing for rapid design decisions and modifications.
+
+### Location
+*	The wireframes PDF file for the Resident Service website can be found [here](assets/media/resident-service-wireframes.pdf).
+*	The Balsamiq wireframes BMPR file can be found [here](assets/media/resident-service-wireframes.bmpr).
+
+## Features
 
 *   **Simulated Call Receiving:** Click the phone icon button on the left side of the screen to simulate receiving a new repair call. The type of repair (General, Electrical, or Plumbing) is randomly selected. The icon on the button changes to reflect the repair type.
 *   **Dynamic Tool Display:** Based on the repair type, the application displays images of the necessary tools. An orange border highlights the tools area when tools need to be selected (should be "placed" in the technician's bag).
@@ -30,6 +43,19 @@ This project simulates a simplified interface for a local service technician for
 *   [Bootstrap 5.3.3](https://getbootstrap.com/)
 *   JavaScript (Vanilla JS)
 *   [Font Awesome 6.7.2](https://fontawesome.com/)
+
+## Testing
+### Lighthouse Report
+### Bugs
+### Vlidator Testing
+### Unfixed Bugs
+
+## Deployment
+The website was deployed to **GitHub Pages** using the following steps:
+
+1.  In the GitHub repository, navigate to the **Settings** tab.
+2.  From the **Pages** side menu, **Branch** section drop-down menu, select the **Main** and press **Save**.
+3.  The live link can be found [here](https://ihorsniezhko.github.io/resident-service/)
 
 ## Credits
 
