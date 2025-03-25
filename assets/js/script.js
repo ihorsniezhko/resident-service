@@ -94,6 +94,24 @@ function displayTools(repairType) {
                 break;
            }
         }
+
+// Function to update the repair counts in the Total Service Calls table
+    function updateCounts(repairType) {
+        switch (repairType) {
+            case 'general':
+                generalCount++; // Increment general repair count
+                generalCountEl.textContent = generalCount; // Update the count in the table
+                break;
+            case 'electrical':
+                electricalCount++; // Increment electrical repair count
+                electricalCountEl.textContent = electricalCount; // Update the count in the table
+                break;
+            case 'plumbing':
+                plumbingCount++; // Increment plumbing repair count
+                plumbingCountEl.textContent = plumbingCount; // Update the count in the table
+                break;
+            }
+        }
 // Event listeners (empty handlers for now for click events)
 callButton.addEventListener('click', handleCall);
 toolsButton.addEventListener('click', handleToolsPacked);
