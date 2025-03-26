@@ -159,13 +159,15 @@ function handleCall() {
   callButton.innerHTML = '<i class="fa-solid fa-phone-volume fa-2x"></i>';
 }
 
+// Function to handle the tools packed button click event
+function handleToolsPacked() {
+    toolsContainer.classList.remove('border-orange'); // Remove the orange border
+    toolsContainer.classList.add('border-green');     // Add a green border to indicate tools are packed
+    walkerIcon.classList.add('fa-person-walking-arrow-right'); // Set walker icon to moving right
+    walkerIcon.classList.remove('fa-person-walking-arrow-loop-left'); // Ensure returning icon is removed
+    toolsButton.disabled = true; // Disable the tools button again
+}
+
 // Event listeners (empty handlers for now for click events)
 callButton.addEventListener("click", handleCall);
 toolsButton.addEventListener("click", handleToolsPacked);
-
-function handleToolsPacked() {
-  console.log("Tools packed button clicked"); // Debugging
-  walkerIcon.classList.add("fa-person-walking-arrow-right");
-  walkerIcon.classList.remove("fa-person-walking-arrow-loop-left");
-  toolsButton.disabled = true;
-}

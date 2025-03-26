@@ -58,12 +58,13 @@ The website was deployed to **GitHub Pages** using the following steps:
 3.  The live link can be found [here](https://ihorsniezhko.github.io/resident-service/)
 
 ## Credits
-
+### Media
 *   Site Logo Image, Favicons: [Pngegg](https://www.pngegg.com/en/png-yxixz/)
 *   Body Background Image - Panorama of Dnipro city, Ukraine: [Wikipedia](https://commons.wikimedia.org/wiki/File:Bashty_Gora_Kaminnya_Sobornyj_rajon_Dnipro-city_-_panoramio.jpg#file)
 *   Images of Parkside repair tools: [Lidl's Parkside section](https://www.lidl.de/c/parkside-du-packst-das/s10026759)
-*   JavaScript Math functions documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-*   JavaScript Arrow function documetation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-*   JavaScript Swith Case documentation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
-*   JavaScript Conditional (ternary) operator documetnation: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) 
-*
+### Resources
+*   JavaScript Math functions: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+*   JavaScript Arrow function: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+*   JavaScript Swith Case: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+*   JavaScript Conditional (ternary) operator: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) 
+*   JavaScript classList property: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
