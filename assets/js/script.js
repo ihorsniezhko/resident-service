@@ -168,6 +168,6 @@ function handleToolsPacked() {
     toolsButton.disabled = true; // Disable the tools button again
 }
 
-// Event listeners (empty handlers for now for click events)
-callButton.addEventListener("click", handleCall);
-toolsButton.addEventListener("click", handleToolsPacked);
+// Event listeners
+callButton.addEventListener('click', handleCall); // Listen for click on Call button
+toolsButton.addEventListener('click', handleToolsPacked); // Listen for click on Tools button
