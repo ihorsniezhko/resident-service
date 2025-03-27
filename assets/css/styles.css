@@ -1,43 +1,43 @@
 /* MINIMAL CUSTOM CSS*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap'); /* Roboto and Serif Google fonts import for better accessibility */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap"); /* Roboto and Serif Google fonts import for better accessibility */
 /* Basic body styling */
 body {
-    font-family: 'Roboto Serif', serif; /* Use the Roboto Serif font */
-    background: url("../img/dnipro-skyscrapers-opacity.webp"); /* Set background image */
-    background-repeat: no-repeat;  /* Do not repeat the background image */
-    background-size: cover;  /* Cover the entire viewport with the background */
-    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
-    display: flex; /* Enable Flexbox */
-    flex-direction: column; /* Stack header, main, and footer vertically */
-    }
+  font-family: "Roboto Serif", serif; /* Use the Roboto Serif font */
+  background: url("../img/dnipro-skyscrapers-opacity.webp"); /* Set background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: cover; /* Cover the entire viewport with the background */
+  min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Stack header, main, and footer vertically */
+}
 main {
-    flex: 1; /* Allow the main content area to grow and fill available space */
-    }
+  flex: 1; /* Allow the main content area to grow and fill available space */
+}
 footer {
-    margin-top: auto; /* Push the footer to the bottom */
-    }
+  margin-top: auto; /* Push the footer to the bottom */
+}
 .table-transparent {
-     --bs-table-bg: transparent; /*Bootstrap 5 way to make table transparent*/
-    }
+  --bs-table-bg: transparent; /*Bootstrap 5 way to make table transparent*/
+}
 /* Custom class to add a green border */
 .border-green {
-    border: 5px solid green;
-    }
+  border: 5px solid green;
+}
 /* Custom class to add an orange border */
 .border-orange {
-    border: 5px solid orange;
-    }
+  border: 5px solid orange;
+}
 /* Style for the walker icon when moving right (green) */
 .walker-icon.fa-person-walking-arrow-right {
-    color: green;
-    }
+  color: green;
+}
 /* Style for the walker icon when returning (red) */
 .walker-icon.fa-person-walking-arrow-loop-left {
-    color: red;
-    }
+  color: red;
+}
 /*Style adjustments for tool images */
 .tool-image {
-    max-width: 150px; /* Limit image width to 150px */
-    height: auto;  /* Maintain aspect ratio */
-    margin: 0.5rem; /* Add some space around the images */
-    }
+  max-width: 150px; /* Limit image width to 150px */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0.5rem; /* Add some space around the images */
+}

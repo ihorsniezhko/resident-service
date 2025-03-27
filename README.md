@@ -51,7 +51,16 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the R
 ## Testing
 ### Lighthouse Report
 ### Bugs
-### Vlidator Testing
+In Jshint validtor test one unused variable was found. The variable was removed.
+### Validator Testing
+* HTML - No errors were returned when passing through the official W3C validator
+* CSS - No errors were found when passing through the official (Jigsaw) validator
+* JavaScript - No errors were found when passing through the official Jshint validator
+    * The following metrics were returned:
+    * There are 7 functions in this file.
+    * Function with the largest signature take 1 arguments, while the median is 1.
+    * Largest function has 11 statements in it, while the median is 5.
+    * The most complex function has a cyclomatic complexity value of 4 while the median is 3.
 ### Unfixed Bugs
 
 ## Deployment

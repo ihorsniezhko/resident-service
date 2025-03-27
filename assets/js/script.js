@@ -3,7 +3,6 @@ const callButton = document.getElementById("callButton"); // Call button
 const walkerIcon = document.getElementById("walkerIcon"); // Walker icon
 const toolsButton = document.getElementById("toolsButton"); // Tools button
 const toolsContainer = document.getElementById("toolsContainer"); // Container for tool images
-const toolsTitle = document.getElementById("toolsTitle"); //Required tools
 const repairTypeSpan = document.getElementById("repairTypeSpan"); // Type repair
 
 // Get the count elements - these will display the number of each type of repair
@@ -142,8 +141,7 @@ function handleCall() {
 
   // Update the walker icon based on whether the repair type has changed
   walkerIcon.className = `fa-solid fa-4x walker-icon ${
-    currentRepairType === newRepairType
-      ? "fa-person-walking-arrow-right" // If same, show walking right
+    currentRepairType === newRepairType ? "fa-person-walking-arrow-right" // If same, show walking right
       : "fa-person-walking-arrow-loop-left" // If different, show returning
   }`;
 
@@ -161,13 +159,13 @@ function handleCall() {
 
 // Function to handle the tools packed button click event
 function handleToolsPacked() {
-    toolsContainer.classList.remove('border-orange'); // Remove the orange border
-    toolsContainer.classList.add('border-green');     // Add a green border to indicate tools are packed
-    walkerIcon.classList.add('fa-person-walking-arrow-right'); // Set walker icon to moving right
-    walkerIcon.classList.remove('fa-person-walking-arrow-loop-left'); // Ensure returning icon is removed
-    toolsButton.disabled = true; // Disable the tools button again
+  toolsContainer.classList.remove("border-orange"); // Remove the orange border
+  toolsContainer.classList.add("border-green"); // Add a green border to indicate tools are packed
+  walkerIcon.classList.add("fa-person-walking-arrow-right"); // Set walker icon to moving right
+  walkerIcon.classList.remove("fa-person-walking-arrow-loop-left"); // Ensure returning icon is removed
+  toolsButton.disabled = true; // Disable the tools button again
 }
 
 // Event listeners
-callButton.addEventListener('click', handleCall); // Listen for click on Call button
-toolsButton.addEventListener('click', handleToolsPacked); // Listen for click on Tools button
+callButton.addEventListener("click", handleCall); // Listen for click on Call button
+toolsButton.addEventListener("click", handleToolsPacked); // Listen for click on Tools button
