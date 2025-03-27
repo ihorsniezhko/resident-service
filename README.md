@@ -14,6 +14,10 @@ This project simulates a simplified interface for a local service technician for
 
 ![Resident Service Interface Mockup](assets/media/resident-service-mockup.png)
 
+### User Stories
+ * Service dispatcher: wants to receive and process repair calls so they can be assigned to technicians efficiently.
+* Technician: wants to know the required tools for each repair so they can prepare for the job. Wants to track the number of repairs completed so they can monitor productivity.
+
 ## Balsamiq Wireframes
 
 Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the Resident Service website's layout used to plan the user interface. Balsamiq was chosen for its ability to quickly create and iterate on visual layouts, allowing for rapid design decisions and modifications.
@@ -62,6 +66,7 @@ The website was deployed to **GitHub Pages** using the following steps:
 *   Site Logo Image, Favicons: [Pngegg](https://www.pngegg.com/en/png-yxixz/)
 *   Body Background Image - Panorama of Dnipro city, Ukraine: [Wikipedia](https://commons.wikimedia.org/wiki/File:Bashty_Gora_Kaminnya_Sobornyj_rajon_Dnipro-city_-_panoramio.jpg#file)
 *   Images of Parkside repair tools: [Lidl's Parkside section](https://www.lidl.de/c/parkside-du-packst-das/s10026759)
+*   The images edited with [ThechSmith Snagit Editor](https://www.techsmith.com/snagit/).
 
 ### Resources
 #### Javascript
