@@ -5,14 +5,14 @@ This README provides a comprehensive overview of the project, making it easy to 
 
 This project simulates a simplified interface for a local service technician for different types of repairs. It's built using HTML, CSS (with Bootstrap 5), and JavaScript. The application tracks repair calls, displays required tools, and visually represents the technician's status (incoming call, picking up tools, going to/returning from a job).
 
-## Screenshot
-
-![Screenshot of the application](screenshot.png)
+![Resident Service Interface Screenshot](assets/media/resident-service-screenshot.png)
 
 ### Design Choices
 *   The website uses a clean and responsive layout to ensure readability on all screen sizes.
 *   Clear and consistent navigation is used to improve user experience.
 *   The website design leverages the default **Bootstrap 5 Light theme** and **Google Roboto Serif font**. This choice creates a clean, bright, and approachable aesthetic.
+
+![Resident Service Interface Mockup](assets/media/resident-service-mockup.png)
 
 ## Balsamiq Wireframes
 
@@ -62,9 +62,15 @@ The website was deployed to **GitHub Pages** using the following steps:
 *   Site Logo Image, Favicons: [Pngegg](https://www.pngegg.com/en/png-yxixz/)
 *   Body Background Image - Panorama of Dnipro city, Ukraine: [Wikipedia](https://commons.wikimedia.org/wiki/File:Bashty_Gora_Kaminnya_Sobornyj_rajon_Dnipro-city_-_panoramio.jpg#file)
 *   Images of Parkside repair tools: [Lidl's Parkside section](https://www.lidl.de/c/parkside-du-packst-das/s10026759)
+
 ### Resources
-*   JavaScript Math functions: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-*   JavaScript Arrow function: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-*   JavaScript Swith Case: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
-*   JavaScript Conditional (ternary) operator: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) 
-*   JavaScript classList property: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+#### Javascript
+*   Math functions: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+*   Arrow function: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+*   Swith Case: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+*   Conditional (ternary) operator: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) 
+*   ClassList property: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+#### Other
+*   [Stack Overflow](https://stackoverflow.com/)
+*   [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+*   [Font Awesome](https://docs.fontawesome.com/)
