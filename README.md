@@ -84,11 +84,14 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the R
     *   **HTML:** No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fihorsniezhko.github.io%2Fresident-service%2F).
     *   **CSS:** No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fihorsniezhko.github.io%2Fresident-service%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
     *   **JavaScript:** No errors were found when passing through the official [Jshint validator](https://jshint.com/).
-        *   Metrics returned: 7 functions, largest signature takes 1 argument (median 1), largest function has 11 statements (median 5), most complex function has a cyclomatic complexity of 4 (median 3).
+        *   Metrics returned: 7 functions in this file. Function with the largest signature take 1 arguments, while the median is 1. Largest function has 13 statements in it, while the median is 5. The most complex function has a cyclomatic complexity value of 4 while the median is 2.
 
-### Unfixed Bugs
+### Bugs
 
-In the JShint validator test, one unused variable was found and subsequently removed. At this stage, there are no other explicitly identified unfixed bugs.
+*   In the JShint validator test, one unused variable was found and subsequently removed.
+*   Logical error in the handleCall() function. If the new repair type was the same as the current repair type, the Tools button was still enabled. This should not happen as the toolset remains the same. This bug has been fixed.
+
+At this stage, there are no other explicitly identified unfixed bugs.
 
 ## Deployment
 
@@ -117,7 +120,7 @@ The live link can be found [here](https://ihorsniezhko.github.io/resident-servic
 *   **Other:**
     *   [Stack Overflow](https://stackoverflow.com/).
     *   [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
-    
+
 ### Content
 
 *   The structure are based on the requirements of a Resident Service interface for taking repair calls.

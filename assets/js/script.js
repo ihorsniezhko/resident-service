@@ -139,16 +139,15 @@ function handleCall() {
   // Set the icon in call button
   setCallButtonIcon(newRepairType);
 
-  // Update the walker icon based on whether the repair type has changed
-  walkerIcon.className = `fa-solid fa-4x walker-icon ${
-    currentRepairType === newRepairType ? "fa-person-walking-arrow-right" // If same, show walking right
-      : "fa-person-walking-arrow-loop-left" // If different, show returning
-  }`;
-
-  // If the new repair type is different from the current one, display the tools
-  if (currentRepairType !== newRepairType) {
-    displayTools(newRepairType);
-  }
+if (currentRepairType === newRepairType) {
+  // Repair type is the SAME
+  walkerIcon.className = 'fa-solid fa-4x walker-icon fa-person-walking-arrow-right'; // Show walking right
+  toolsButton.disabled = true; // Tools button should remain disabled
+} else {
+  // Repair type is DIFFERENT
+  walkerIcon.className = 'fa-solid fa-4x walker-icon fa-person-walking-arrow-loop-left'; // Show returning
+  displayTools(newRepairType); // Display the new tools
+}
   //Set the tool button icon
   setToolsButtonIcon(newRepairType);
   currentRepairType = newRepairType; // Update the current repair type
