@@ -88,8 +88,8 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the R
 
 ### Bugs
 
-*   In the JShint validator test, one unused variable was found and subsequently removed.
-*   Logical error in the handleCall() function. If the new repair type was the same as the current repair type, the Tools button was still enabled. This should not happen as the toolset remains the same. This bug has been fixed.
+*   In the JShint validator test, one unused variable was found and removed.
+*   Logical error in the handleCall() function. If the new repair type was the same as the current repair type, the Tools button was still enabled. This should not happen as the toolset remains the same. The bug has been fixed.
 
 At this stage, there are no other explicitly identified unfixed bugs.
 

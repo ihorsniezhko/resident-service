@@ -141,7 +141,7 @@ function handleCall() {
 
 if (currentRepairType === newRepairType) {
   // Repair type is the SAME
-  walkerIcon.className = 'fa-solid fa-4x walker-icon fa-person-walking-arrow-right'; // Show walking right
+  walkerIcon.className = 'fa-solid fa-4x walker-icon fa-person-walking-arrow-right'; // Show keep walking
   toolsButton.disabled = true; // Tools button should remain disabled
 } else {
   // Repair type is DIFFERENT
