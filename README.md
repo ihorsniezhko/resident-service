@@ -50,17 +50,18 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the R
 
 ## Testing
 ### Lighthouse Report
+![Resident Service Lighthouse Report](assets/media/resident-service-lighthouse.png)
 ### Bugs
 In Jshint validtor test one unused variable was found. The variable was removed.
 ### Validator Testing
-* HTML - No errors were returned when passing through the official W3C validator
-* CSS - No errors were found when passing through the official (Jigsaw) validator
-* JavaScript - No errors were found when passing through the official Jshint validator
+* HTML - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fihorsniezhko.github.io%2Fresident-service%2F)
+* CSS - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fihorsniezhko.github.io%2Fresident-service%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* JavaScript - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
     * The following metrics were returned:
-    * There are 7 functions in this file.
-    * Function with the largest signature take 1 arguments, while the median is 1.
-    * Largest function has 11 statements in it, while the median is 5.
-    * The most complex function has a cyclomatic complexity value of 4 while the median is 3.
+        * There are 7 functions in this file.
+        * Function with the largest signature take 1 arguments, while the median is 1.
+        * Largest function has 11 statements in it, while the median is 5.
+        * The most complex function has a cyclomatic complexity value of 4 while the median is 3.
 ### Unfixed Bugs
 
 ## Deployment
