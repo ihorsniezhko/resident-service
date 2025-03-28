@@ -27,7 +27,7 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the R
 *	The Balsamiq wireframes BMPR file can be found [here](assets/media/resident-service-wireframes.bmpr).
 
 ## Features
-
+### Existing Features
 *   **Simulated Call Receiving:** Click the phone icon button on the left side of the screen to simulate receiving a new repair call. The type of repair (General, Electrical, or Plumbing) is randomly selected. The icon on the button changes to reflect the repair type.
 *   **Dynamic Tool Display:** Based on the repair type, the application displays images of the necessary tools. An orange border highlights the tools area when tools need to be selected (should be "placed" in the technician's bag).
 *   **Tool "Packing":** Click the tools button on the right side of the screen (which changes icon to reflect repair type) to simulate gathering the required tools. The border around the tools changes to green, indicating they are ready.
@@ -39,7 +39,13 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the R
 *   **Responsive Design:** Uses Bootstrap 5 for a responsive layout that adapts to different screen sizes.
 *   **Clear Instructions:** Includes a footer with step-by-step instructions explaining how the interface works.
 *   **No Persistent Storage** All call type counters are reset when the page reloads.
-
+### Future Features
+* **Persistence of Data:** Currently, the repair call counts are reset when the page is reloaded. Implementing local storage or a simple backend would allow the data to persist across sessions.
+* **Timer/Job Duration:** Add a timer to simulate the duration of a service call.
+* **More Detailed Repair Information:** Expand the repair information to include details such as the location of the repair, a description of the problem, and the urgency of the call.
+* **User Authentication:** For a more complex application, add user authentication to allow multiple users (e.g., different technicians) to use the system and track their individual performance.
+* **Floor Plan Integration:** Integrate a floor plan to visualize the location of the repair.
+* **Drag and Drop Functionality**: Enable drag-and-drop functionality to allow users to drag tools into a virtual "toolbox".
 ## Technologies Used
 
 *   HTML5
